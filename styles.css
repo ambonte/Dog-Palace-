@@ -1,0 +1,90 @@
+
+body{
+    font-family:monospace;
+    
+}
+#navlist{
+    background-color:#1a1a00;
+    
+    box-shadow: 0px 0px 20px var(--clr-gray200);
+    margin:0px;
+    padding: 1 rem 0;
+    border-radius:var(--radius);
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size:15px;
+    font-weight:bolder;
+}
+.navitem{
+    list-style: none;
+    margin-right: 60px;
+}
+.navitem a{
+    text-decoration: none;
+    color:white;
+}
+.but-donate{
+    font-family: inherit;
+    font-size:25px;
+    background-color:red;
+    outline:none;
+    padding: 0 px 0px 10px;
+    cursor:pointer;
+    transition-timing-function: ease-in-out;
+
+}
+.btn-donate a:hover{
+    background-color:green;
+}
+.navitem a:hover{
+    color:red;
+}
+
+
+.home{
+    background-image: url(https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/dogs_1280p_0.jpg?itok=cnRk0HYq);
+
+background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+.doggy{
+    font-size:100px;
+    text-align: center;
+    color:whitesmoke;
+    font-family:cursive;
+    text-shadow: 5px 5px #333333;
+    padding:25px;
+    
+}
+
+.quote{
+   text-align:center;
+   font-weight:bolder;
+   color:black; 
+   padding: 60px;
+   font-size:20px
+}
+.about{
+    background-image: url(https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2019/02/dog-451643.jpg?h=bf654dbc&itok=MQGvBmuo);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+   }
+   .aboute{
+       font-size:20px;
+       padding: 180px;
+       justify-content: center;
+       font-style: italic;
+       font-weight: bold;
+   }
+   
+
+
+
+   .container{
+    margin:20px;
+    padding:0;
+    text-align:center;
+}
